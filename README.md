@@ -19,6 +19,7 @@ What exaclty I want to practice?
 ## Tools
 
 | Tool | Purpose |
+| - | - |
 | Viper | Configuration |
 | Testify | Testing |
 | Sqlc | SQL queries code generation |
