@@ -1,0 +1,20 @@
+version: "3.7"
+services:
+  db:
+    image: postgres:15
+    container_name: quode_db_pg
+    environment:
+      POSTGRES_USER: quode
+      POSTGRES_PASSWORD: quode
+      POSTGRES_DB: quode
+    ports:
+      - "5432:5432"
+  db_test:
+    image: postgres:15
+    container_name: quode_db_pg_test
+    environment:
+      POSTGRES_USER: quode
+      POSTGRES_PASSWORD: quode
+      POSTGRES_DB: quode_test
+    ports:
+      - "5431:5432"

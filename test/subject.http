@@ -1,0 +1,7 @@
+POST http://localhost:8000/subjects HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Domain Driven Design",
+    "description": "Books about tackling complexity in the heart of software"
+}

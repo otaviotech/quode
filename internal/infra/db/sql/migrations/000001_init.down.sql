@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS "quotes";
+DROP TABLE IF EXISTS "books_subjects";
+DROP TABLE IF EXISTS "books_authors";
+DROP TABLE IF EXISTS "books";
+DROP TABLE IF EXISTS "subjects";
+DROP TABLE IF EXISTS "authors";
